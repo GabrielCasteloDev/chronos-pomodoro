@@ -1,10 +1,11 @@
-function PrimeiroTeste(){
+import './styles/theme.css'
+import './styles/global.css'
 
-    <h1>Ola</h1>
-    return <p>teste</p>;
-    
+export function App(){
+    return(
+        <>
+        <h1>Teste titulo</h1>
+        <p>teste paragrafo</p>
+        </>
+    );
 }
-
-
-
-export default PrimeiroTeste;
