@@ -1,0 +1,10 @@
+import styles from './Heading.module.css'
+
+export function Heading () {
+    return(
+        <>
+        <h1 className={styles.heading1}>Teste titulo</h1>
+        <h2 className={styles.heading2}>teste h2</h2>
+        </>
+    )
+}

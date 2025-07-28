@@ -1,10 +1,12 @@
+import { Heading } from './components/Heading';
+
 import './styles/theme.css'
 import './styles/global.css'
 
 export function App(){
     return(
         <>
-        <h1>Teste titulo</h1>
+        <Heading />
         <p>teste paragrafo</p>
         </>
     );
